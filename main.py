@@ -1,4 +1,7 @@
 from utils import average_price
+from utils import total_revenue
+from utils import best_product
+from utils import total_items_sold
 
 import csv
 
