@@ -19,6 +19,9 @@ def best_product(products, prices, quantities):
 def average_price(prices):
     return sum(prices) / len(prices)
 
+def total_items_sold(quantities):
+    return sum(quantities)
+
 products = []
 prices = []
 quantities = []
@@ -35,3 +38,4 @@ with open("data/sales.csv", newline="") as csvfile:
 print("Total revenue:", total_revenue(prices, quantities))
 print("Average price:", average_price(prices))
 print("Best product:", best_product(products, prices, quantities))
+print("Total items sold:", total_items_sold(quantities))
