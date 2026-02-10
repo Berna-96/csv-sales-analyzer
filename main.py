@@ -1,3 +1,4 @@
+from utils import average_price
 
 import csv
 
@@ -17,8 +18,6 @@ def best_product(products, prices, quantities):
     return products[max_index]
 
 
-def average_price(prices):
-    return sum(prices) / len(prices)
 
 def total_items_sold(quantities):
     return sum(quantities)
