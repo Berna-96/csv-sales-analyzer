@@ -17,8 +17,6 @@ def best_product(products, prices, quantities):
     max_index = revenues.index(max(revenues))
     return products[max_index]
 
-
-
 def total_items_sold(quantities):
     return sum(quantities)
 
